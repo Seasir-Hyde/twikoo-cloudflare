@@ -6,7 +6,7 @@ compatibility_date = "2024-09-23"
 
 [[d1_databases]]
 binding = "DB" # available in your Worker on env.DB
-database_name = "twikoo_db"
+database_name = "twikoo"
 database_id = "a75d538f-1718-44ae-80da-6c544674098f"
 [dev]
 port = 5000
