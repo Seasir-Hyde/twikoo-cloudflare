@@ -1,12 +1,12 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "twiokk"
+name = "twikoo-cloudflare"
 main = "src/index.js"
 compatibility_flags = ["nodejs_compat"]
 compatibility_date = "2025-01-01"
 
 [[d1_databases]]
 binding = "DB" # available in your Worker on env.DB
-database_name = "twikoo-cloudflare"
+database_name = "twikoo"
 database_id = "a75d538f-1718-44ae-80da-6c544674098f"
 [dev]
 port = 5000
